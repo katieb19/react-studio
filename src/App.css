@@ -1,9 +1,46 @@
 /* Add styling for your page here */
 
 .App {
-
+    display: flex;
+    flex-direction: row;
 }
 
+
 .BakeryItem {
-  
+  background-color: lightgrey;
+  width: 20%;
+  margin: 3%;
+  border-radius: 10px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.BakeryItem img {
+    width: 100%;
+}
+
+.description {
+    padding: 1rem;
+}
+
+.bottomLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.left {
+    width: 80%;
+}
+
+.itemListed {
+    
 }
